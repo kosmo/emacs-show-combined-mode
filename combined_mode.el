@@ -4,8 +4,8 @@
   (defface my-face '((t (:background "yellow" :foreground: "black" :bold t))) "")
 
   (if show-combined-mode
-    (hi-lock-face-buffer "ö" 'my-face)
-    (unhighlight-regexp "ö")
+    (hi-lock-face-buffer ".[\u0300-\u036F]" 'my-face)
+    (unhighlight-regexp ".[\u0300-\u036F]")
   )
 )
 
