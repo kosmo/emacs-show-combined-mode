@@ -1,6 +1,6 @@
 (define-minor-mode show-combined-mode
   "Highligh combined unicode characters"
-  :ligher "show-combined"
+  :lighter " show-combined"
   (defface my-face '((t (:background "yellow" :foreground: "black" :bold t))) "")
 
   (if show-combined-mode
