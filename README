@@ -1,0 +1,3 @@
+Emacs minor mode. Highlights unicode combining diacritical marks.
+
+Clone repo locally or just save combined_mode.el. Load in emacs. Run 'M-x show-combined-mode' to toggle highlighting of unicode combining diacritical marks.
